@@ -1,6 +1,6 @@
+use std::env;
+
 fn main() {
-    println!("Hello, world! 哈哈哈 hhh");
-    println!("Hello, world! 哈哈哈 hhh");
-    println!("Hello, world! 哈哈哈 hhh");
-    println!("Hello, world! 哈哈哈 hhh");
+    let args: Vec<String> = env::args().collect();
+    print!("{:?}", args);
 }
